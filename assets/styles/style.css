@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E3CAA5;
+}
+
+footer {
+    padding: 10px;
+    color: #FFFBE9;
+    background-color: #462B17;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFBE9;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    color: #462B17;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    color: #462B17;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFBE9;
+    margin: 0 10px 0 5px;
+}
+
+nav a:hover {
+    font-weight: bold;
+    background-color: #FFFBE9;
+    color: #462B17;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav {
+    background-color: #462B17;
+    padding: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.biodata a {
+    text-decoration: none;
+    color: #462B17;
+}
+
+.biodata a:hover {
+    font-size: 18px;
+}
+
+.biodata img {
+    width: 100px;
+}
+
+.biodata {
+    text-align: center;
+}
+
+.book-card{
+    box-shadow: 1px 0 1px 1px rgba(0, 0, 0, 0.5);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.book-flex {
+    flex-basis: 33.3%;
+
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}
+
+.card {
+    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.fav-img {
+    width: 150px;
+}
+
+.fav-img:hover {
+    width: 200px;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex-container-row {
+    display: flex;
+}
+
+.full {
+    flex-basis: 100%;
+}
+
+.jumbotron {
+    width: 100%;
+    height: auto;
+    background-image: url("../images/library.jpg");
+    background-repeat: repeat;
+    margin: 0 auto;
+    padding: 50px;
+
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 5px 5px #462B17;
+
+    color: #FFFBE9;
+}
+
+.myBtn {
+    background-color: #462B17;
+    color: #FFFBE9;
+    padding: 5px;
+}
+
+.rev-img {
+    float: left;
+    width: 150px;
+    padding: 10px 20px 10px 10px;
+}
+
+.review-book {
+    text-align: justify;
+}
+
+#content {
+    float: left;
+    width: 73%;
+}
+
+.more {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+      width: 100%;
+      padding: 0;
+    }
+
+    .flex-container-row {
+        flex-direction: column;
+    }
+}
